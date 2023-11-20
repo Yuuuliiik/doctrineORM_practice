@@ -15,6 +15,5 @@ if ($order === null) {
 $order->reassignManager($managerName);
 
 $entityManager->flush();
-
-echo "Manager " . $order->getManagerName() ." reassignment successful" ."\n";
+    echo "Manager " . $order->getManagerName() . " reassignment" . "\n";
 

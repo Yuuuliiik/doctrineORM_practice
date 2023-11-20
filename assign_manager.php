@@ -16,5 +16,5 @@ $order->assignManager($managerName);
 
 $entityManager->flush();
 
-echo "Manager " . $order->getManagerName() ." assignment successful" ."\n";
+echo "Manager " . $order->getManagerName() ." assignment" ."\n";
 
